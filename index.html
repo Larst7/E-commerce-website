@@ -1,62 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <title>Mirror City e-commerce</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MirrorCity</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+    </style>
 </head>
 <body>
+    <!--navigation bar-->
+    <nav>
+        <img src="images/logo.jpg" class="logo">
+        <ul>
+            <li><a href="index.php" class="home">Home</a></li>
+            <li><a href="" class="become">About Us</a></li>
+            <li><a href="" class="blood">Our Services</a></li>
+            <li><a href="" class="about">Contact Us</a></li>
+        </ul>
+        <input type="search" placeholder="Search available blood" class="bar">
+        <a class="reg" href="">Sign Up</a>
+        <!-- Trigger/Open The Modal -->
+        <a class="log" id="myBtn">Sign In</a>
+    </nav>
 
-    <div class="main">
-        <div class="navbar">
-            <div class="icon">
-             <h2 class="logo">Mirror City</h2>
-            </div>
-
-            <div class="menu">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">CATALOGUE</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div>
-
-            <div class="search">
-                <input class="srch" type="search" name="" placeholder="Search for service">
-                <a href="#"> <button class="btn">Search</button></a>
-            </div>
-
-        </div> 
-        <div class="content">
-            <h1>Framed mirrors, Frameless & <br><span>Picture framing </span> <br> Our purpose</h1>
-            <p class="par">Mirror City wants you to see the best in you.<br> To get one, Simply visit address: 136 Barkston Drive, Blaigowrie Randburg <br> or place order here. <br>
-                <br> We can always customize something special for you</p>
-
-                <button class="cn"><a href="#">FOR PICTURES</a></button>
-
-                <div class="form">
-                    <h2>To place order </h2>
-                    <input type="address" name="email" placeholder=" Address">
-                    <input type=" contact" name="" placeholder="Contact details">
-                    <button class="btnn"><a href="#">Inquire</a></button>
-
-                    <p class="link">Check and subsribe<br>
-                                   
-
-                    <div class="icons">
-                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
-                    </div>
-
-                </div>
-                    </div>
-                </div>
+    <!--main text-image-->
+    <div class="inspire">
+        <img class="inspirational-pic" src="images/on the wall.jpg" >
+        <div class="text">
+            <p class="para1">
+                Mirror,mirror on the wall <br> Who's the fairest of them all?
+            </p>
+            <p class="insp">
+                Welcome to Mirror City, where elegance meets reflection. Our mirrors aren't just reflective surfaces; they're portals to your inner beauty and style. Step into a world where every glance is a testament to your grace and poise. From sleek modern designs to timeless classics, our collection boasts mirrors that elevate any space, whether it's a cozy corner or a grand foyer. Each mirror is crafted with precision and passion, ensuring not just clarity but a reflection of your unique personality and taste<br><br>
+                At Mirror City, we understand that mirrors aren't just decorative pieces; they're essential elements of your daily routine. That's why we prioritize quality and functionality in every design. Whether you're seeking a statement piece to adorn your living room or a practical addition to your bedroom vanity, our curated selection has something for every need and desire. Discover the magic of self-reflection with Mirror Majesty, where your beauty truly shines through.
+            </p>
         </div>
     </div>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-</body>
-</html>
+
+    <!--first paragraph-->
+    <div class="sec">
+        <br>
+        <h1 class="heading1">What do we do?</h1>
+        <div class="flex">
+            <div class="head">
+                <p class="para2">At Mirror City, we specialize in curating a diverse array of mirrors that not only adorn your walls but also reflect your individuality and style. Our passion lies in providing mirrors that transcend mere functionality, becoming focal points of beauty and sophistication in any space. From ornate frames that exude timeless elegance to sleek, minimalist designs that embrace contemporary aesthetics, we offer a wide range of options to suit every taste and preference.</p><br><br>
+                <p class="para2">At the heart of Mirror City is a commitment to quality craftsmanship and impeccable design. We meticulously select each mirror in our collection to ensure superior clarity, durability, and visual impact. Whether you're revamping your home decor or seeking to add a touch of glamour to your commercial space, we strive to provide mirrors that not only meet but exceed your expectations. Elevate your surroundings with Mirror Majesty, where every reflection tells a story of elegance and refinement.</p>
+            </div>
+            <img src="images/what do we.jpg" class="types">
+        </div>
+    </div>
+
+    <div class="third">
+        <img src="images/our.jpg" class="circle">
+        <div class="third-1">
+            <h1 class="heading1">We come<br> Anywhere,Anytime</h1>
+            <br>
+            <div class="head1">
+                <p class="para2">At Mirror City, we understand that inspiration can strike anywhere and anytime, which is why we offer the convenience of online browsing and shopping alongside personalized consultation services. Our commitment to accessibility means that no matter where you are or what your schedule may be, Mirror Majesty is always ready to accompany you on your quest for beauty and sophistication in mirror design.</p>
+                <a href=""><button class="donate">Call Us Now</button></a>
+            </div>
+        </div>
+    </div>
+
+    <img src="images/URBAN-MIRROR-1.jpg" class="banner">
+
+    <footer>
+        <div class="foot">
+            <h2>Site Map</h2>
+            <p><a href="">Home</a></p>
+            <p><a href="" >About Us</a></p>
+            <p><a href="" >Our Services</a></p>
+            <p><a href="" >Contact Us</a></p>
+        </div>
+        <div class="foot">
+            <h2>Contact Us</h2>
+            <p>Whatsapp:084 998 3506</p>
+            <p>Call us:011 012 0123</p>
+            <p>Email us: larsie433@gmail.com</p>
+            <p>www.mirrorcity.co.za</p>
+        </div>
+        <div class="foot">
+            <h2>Follow Us</h2>
+            <p><a>facebook</a></p>
+            <p><a>linkedlin</a></p>
+            <p><a>twitter</a></p>
+        </div>
+        <div class="buttons">
+            <label>Subscribe to our news</label>
+            <div class="btn">
+                <input type="email" placeholder="Enter your email" class="email">
+            </div>
+            <div class="btn">
+                <button class="subs">Subscribe</button>
+            </div>
+            <label>By subscribing you confirm that you<br> have read and accept our terms and conditions</label>
+        </div>
+    </footer>
+    <div class="foot2">
+        <img src="images/logo.jpg" class="logo">
+        <p>© MirrorCity 15+ experience</p>
+        <p>Terms & Conditions</p>
+        <p>Privacy</p>
+        <p>US English </p>
+    
